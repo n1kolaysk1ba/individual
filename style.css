@@ -1,0 +1,102 @@
+
+body{
+    background: url(https://images.wallpaperscraft.ru/image/single/liniya_raznocvetnyy_chernyy_fon_85540_1920x1080.jpg);
+    background-size: cover;
+    width:100%;
+    height:100%;
+    font-size: 20px;
+    scrollbar-width: none;
+    overflow: hidden;
+}
+
+span {
+    color: white;
+    height: 10%;
+    font-size: 35px;
+    text-shadow: 0 0 25px blue;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.href a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+}
+
+
+.bot{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 50%;
+    justify-content: space-around;
+}
+
+.menu{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lefttop{
+    color:white;
+    background-color: #0F1012;
+    border: 6px solid #6E131A;
+    border-radius: 20px 0px 20px 0px;
+    
+}
+
+.righttop{
+    color: white;
+    background-color: #181C35;
+    border: 6px solid #6E131A;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.leftbot{
+    color: white;
+    background-color: #16331C;
+    border: 6px solid #6E131A;
+    border-radius: 0px 20px 0px 20px ;
+}
+
+.rightbot{
+    color:white;
+    background-color: #2C508D;
+    border: 6px solid #6E131A;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.menu_block{
+    margin: 5px;
+    height: 90%;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
